@@ -3,6 +3,6 @@ def fizzbuzz(number)
     puts "FizzBuzz"
   elsif number %5 == 0 && !(number % 3 == 0)
     puts "Buzz"
-  elsif number %5 == 0 && !(number % 3 == 0)
+  elsif number %3 == 0 && !(number % 3 == 0)
   
 end
